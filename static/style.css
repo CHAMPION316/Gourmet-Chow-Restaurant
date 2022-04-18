@@ -54,3 +54,22 @@ section {
     color: #d36cbd;
     line-height: 2;
 }
+
+/*--------------------------------------------Footer*/
+
+footer {
+    width: 100%;
+    background-color: #d36cbd;
+    padding: 5% 5% 5% 5%;
+}
+
+.bi-facebook, .bi-instagram, .bi-twitter {
+    color: #000000;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
+    color: #fff;
+    text-decoration: none;
+}
