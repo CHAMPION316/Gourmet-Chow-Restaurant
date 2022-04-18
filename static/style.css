@@ -25,3 +25,32 @@ html, body {
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #fff;
 }
+
+/*--------------------------------------------Section*/
+
+section {
+    background-color: #212529;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+ .padding img {
+    /* width: 100%; */
+    border: 2px solid #d36cbd;
+} 
+
+.padding h2 {
+    color: #d36cbd;
+    font-size: 1.5em;
+}
+
+.padding h2 span {
+   font-style: italic;
+}
+
+.padding p {
+    color: #d36cbd;
+    line-height: 2;
+}
