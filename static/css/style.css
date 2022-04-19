@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/*--------------------------------------------Global properties*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------Nav-bar*/
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #d36cbd;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/*--------------------------------------------Section*/
+
+section {
+    background-color: #212529;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+ .padding img {
+    /* width: 100%; */
+    border: 2px solid #d36cbd;
+} 
+
+.padding h2 {
+    color: #d36cbd;
+    font-size: 1.5em;
+}
+
+.padding h2 span {
+   font-style: italic;
+}
+
+.padding p {
+    color: #d36cbd;
+    line-height: 2;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    width: 100%;
+    background-color: #d36cbd;
+    padding: 5% 5% 5% 5%;
+}
+
+.bi-facebook, .bi-instagram, .bi-twitter {
+    color: #000000;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media (max-width: 768px) {
+    .landing-text img {
+        height: 130px;
+        width: 140px;
+    }
+
+    .landing-text {
+        padding-top: 85px;
+    }
+
+    .landing-text h1, h3 {
+        padding: 0 4px;
+    }
+
+    .landing-text h3 {
+        margin-top: 40px;
+    }
+
+    .padding {
+        padding: 80px 0 30px;
+    }
+
+    .padding h2 {
+        margin-top: 25px;
+    }
+}
