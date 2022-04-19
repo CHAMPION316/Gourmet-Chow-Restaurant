@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from chow.views import main_page
-from chow.view import booking_page
+from chow.views import booking_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', main_page, name='main_page')
-    path('booking/', booking_page, name='booking_page')
+    path('', main_page, name='main_page'),
+    path('book.html/', booking_page, name="booking_page")
 ]
