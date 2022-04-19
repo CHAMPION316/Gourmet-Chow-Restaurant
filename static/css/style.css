@@ -26,6 +26,10 @@ html, body {
     color: #fff;
 }
 
+.border-pink {
+    border-bottom: 2px solid #d36cbd
+}
+
 /*--------------------------------------------Header*/
 
 #main-header {
