@@ -6,6 +6,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: "Montserrat", sans-serif;
+    background-color: #212529
 }
 
 /*--------------------------------------------Nav-bar*/
@@ -116,6 +117,15 @@ footer {
 .bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
     color: #fff;
     text-decoration: none;
+}
+
+/*........................................Button*/
+
+.button1 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d36cbd;
+    border-color: #d36cbd;
 }
 
 /*--------------------------------------------Media Queries*/
