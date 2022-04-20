@@ -87,6 +87,18 @@ html, body {
     line-height: 2;
 }
 
+/*-----------------------------------------Booking Times text color*/
+
+.text-color {
+    color: #fff;
+}
+
+.bg-times {
+    background-color: #d36cbd;
+    padding: 0.2rem;
+    box-shadow: 5px 7px #000000;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
