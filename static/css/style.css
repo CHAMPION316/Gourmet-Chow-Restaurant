@@ -94,6 +94,10 @@ html, body {
     color: #fff;
 }
 
+.copyright-color {
+    color: #d36cbd
+}
+
 .bg-times {
     background-color: #d36cbd;
     padding: 0.2rem;
