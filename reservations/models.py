@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 # Create your models here.
 
 
-class Group(models.Model):
+class Guest(models.Model):
 
     class GuestCount(models.TextChoices):
         GUEST1 = 'G1', _('Guest 1')
