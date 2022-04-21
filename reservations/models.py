@@ -18,13 +18,15 @@ class Guest(models.Model):
         max_length=6,
         choices=GuestCount.choices,
         default=GuestCount.GUEST1,
+        null=False,
+        blank=False,
     )
 
     def is_highcount(self):
-        return self.year_in_school in {
+        return self.guest_count in {
             self.GuestCount.GUEST4,
             self.GuestCount.GUEST5,
         }
 
     def __str__(self):
-        return self.name
+        return self.guest_count
