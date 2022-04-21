@@ -2,71 +2,14 @@
 
 {% block content %}
 
-    <!-- Dropdown Menu -->
-        <div class="row">
-            <div class="col-md-12 landing-text text-center">
-                <div class="btn-group">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-                    Guests
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-                    <li><a class="dropdown-item" href="#">2 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">3 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">4 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">5 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">6 Guests</a></li>
-                    </ul>
-                </div>
-                
-                <div class="btn-group">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
-                    Date
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-                    <li><a class="dropdown-item" href="#">December</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Booking Times -->
-        <div class="container-sm text-color pt-3">
-            <h5 class="ms-5">Times</h5>
-            <div class="d-flex justify-content-evenly">
-                <div class="bg-times border border-dark">16.00</div>
-                <div class="bg-times border border-dark">17.00</div>
-                <div class="bg-times border border-dark">18.00</div>
-            </div>
-            <div class="d-flex justify-content-evenly pt-5">
-                <div class="bg-times border border-dark">19.00</div>
-                <div class="bg-times border border-dark">20.00</div>
-                <div class="bg-times border border-dark">21.00</div>
-            </div>
-        </div>
-
-        <!-- Booking Form -->
-        <div class="container text-color text-center pt-5">
-            <h5 class="pe-3">Name</h5>
-            <form action="">
-                <div class="pb-3">
-                    <label for="fname" class="form-label pe-3">First</label>
-                    <input type="text" id="fname" name="fname" aria-describedby="first name">
-                </div>
-                <div class="pb-3">
-                    <label for="lname" class="form-label pe-3">Last</label>
-                    <input type="text" id="lname" name="lname" aria-describedby="last name">
-                </div>
-                <div class="pb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" id="email" name="email" aria-describedby="email-address">
-                </div>
-                <div class="pb-3">
-                    <button type="submit" class=" button1 btn btn-primary">Submit</button>
-                </div>
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-12 col-md-6 mx-auto">
+            <form class="px-3 pt-3" action="post">
+                <button type="submit" class="btn btn-lg my-3 btn-primary text-color button1">Book</button>
             </form>
         </div>
-        <div class="container text-center copyright-color pt-5">
-            <p>Copyright Gourment Chow 2022</p>
-        </div>
+    </div>
+</div>
 
-  {% endblock content %}
+{% endblock content %}
