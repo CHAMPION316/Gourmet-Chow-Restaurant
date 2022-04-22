@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="container-sm mt-5">
-    <form action="">
+    <form action="" method="post">
         <div class="row align-items-start text-center">
             <div class="col">
                 <div class="btn-group">
@@ -11,11 +11,12 @@
                     Guests
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-                    <li><a class="dropdown-item" href="#">2 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">3 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">4 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">5 Guests</a></li>
-                    <li><a class="dropdown-item" href="#">6 Guests</a></li>
+                    <li><a class="dropdown-item">{{ GUEST1 }}</a></li>
+                    <li><a class="dropdown-item">{{ GUEST2 }}</a></li>
+                    <li><a class="dropdown-item">{{ GUEST3 }}</a></li>
+                    <li><a class="dropdown-item">{{ GUEST4 }}</a></li>
+                    <li><a class="dropdown-item">{{ GUEST5 }}</a></li>
+                    <li><a class="dropdown-item">{{ GUEST6 }}</a></li>
                     </ul>
                 </div>
             </div>
