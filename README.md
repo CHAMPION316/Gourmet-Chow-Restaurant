@@ -109,6 +109,7 @@ At this point in time I only have the index.html page running but will implement
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
 - [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find errors that don't belong in my CSS code.
+- [Python Validator](https://peps.python.org/pep-0008/) - used to find errors in python code.
 - [OneNote](https://www.onenote.com/download) - Used for rough draft ideas and note taking.
 
 ## 4. Testing
