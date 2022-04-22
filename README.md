@@ -41,3 +41,19 @@ Here is the color palette I have come up with:
 - As a creator, I expect the user to find what they need on the main page.
 - As a creator, I expect the user to find the address of the restaurant within the first 45 seconds.
 - As a creator, I expect the user to enjoy a simplistic menu that isn't all over the place. 
+
+### 1.4 Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
+
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page]|[Home Page](docs/img/tablet-main-page.png)|[Home Page](docs/img/phone-main-page.png)|
+|[Navbar]|[Navbar](docs/img/tablet-navbar.png)|[Navbar](docs/img/phone-navbar.png)|
+|[Reservation Page]|[Reservation Page](docs/img/tablet-reservation-page.png)|[Reservation Page](docs/img/phone-reservation-page.png)|
+|[Reservation Guests]|[Reservation Guests](docs/img/tablet-reservation-guests.png)|[Reservation Guests](docs/img/phone-reservation-guests.png)|
+|[Reservation Date]|[Reservation Date](docs/img/tablet-reservation-date.png)|[Reservation Date](docs/img/phone-reservation-date.png)|
+|[Menu Page]|[Menu Page](docs/img/tablet-menu.png)|[Menu Page Starters](docs/img/phone-menu-starters.png)|
+|**|**|[Menu Page Main Course](docs/img/phone-menu-maincourse.png)|
+|**|**|[Menu Page Slides](docs/img/phone-menu-slides.png)|
+|[About Page]|[About Page](docs/img/tablet-about.png)|[About Page](docs/img/phone-about-page.png)|
