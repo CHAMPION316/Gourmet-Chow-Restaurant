@@ -57,3 +57,26 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 |**|**|[Menu Page Main Course](docs/img/phone-menu-maincourse.png)|
 |**|**|[Menu Page Slides](docs/img/phone-menu-slides.png)|
 |[About Page]|[About Page](docs/img/tablet-about.png)|[About Page](docs/img/phone-about-page.png)|
+
+##  2 Features 
+
+### 2.1 Existing Features
+
+All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The main page has a footer at the bottom with the address, phone number, and social media links. (I am currently working on whether the footer will be implemented on all pages except the menu page.) My color palette was created using [https://coolors.co/](https://coolors.co/). I decided to use 3 colors listed below in RGB format. 
+
+The color palette was done using [coolors](https://coolors.co/) as seen by the image here [collage](docs/img/chow-color-palette.png)
+
+
+At this point in time I only have the index.html page running but will implement the rest as I just worked on the wireframes for the rest of the site. 
+
+[**The Navbar**](docs/img/phone-navbar.png) includes links to **Home Page** - **Menu Page** - **Reservation Page** - **About Page** 
+- [**Home Page**](docs/img/phone-main-page.png) allows the user to navigate to the main page.
+- [**Menu Page**](docs/img/phone-menu-maincourse.png) allows the user to view the food menu.
+- [**Reservation Page**](docs/img/phone-reservation-page.png) allows the user to place a reservation with a date and time.
+- [**About Page**](docs/img/phone-about-page.png) allows the user to learn more about the restaurant and it's history.
+
+[**The Header**](wireframes/phone-main-page.png) : Contains an image of the inside of a restaurant that I got form [pexels](https://www.pexels.com/photo/wine-glasses-on-table-tops-941861/) which is a website that allows users to use images for free. 
+
+[**Section**](wireframes/phone-main-page.png) : Contains a colored background with an image of a dish that the restaurant serves with a brief description about the restaurant. 
+
+[**The Footer**](wireframes/phone-main-page.png) : includes:
