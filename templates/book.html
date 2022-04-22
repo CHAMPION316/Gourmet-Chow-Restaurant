@@ -24,17 +24,27 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row justify-content-center">
-        <form action="">
-            <div class="col-4">
-            One of two columns
+<div class="container-sm">
+    <form action="">
+        <div class="row align-items-start text-center">
+            <div class="col">
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    Guests
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                    <li><a class="dropdown-item" href="#">2 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">3 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">4 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">5 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">6 Guests</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-4">
-            One of two columns
+            <div class="col">
+              One of three columns
             </div>
-        </form>
-    </div>
+    </form>
 </div> 
 
 {% endblock content %}
