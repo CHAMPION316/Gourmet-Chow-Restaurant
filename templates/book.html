@@ -4,12 +4,37 @@
 
 <div class="container">
     <div class="row mb-5">
-        <div class="col-12 col-md-6 mx-auto">
+        <div class="col-12 mx-auto">
             <form class="px-3 pt-3" action="post">
-                <button type="submit" class="btn btn-lg my-3 btn-primary text-color button1">Book</button>
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    Guests
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                    <li><a class="dropdown-item" href="#">2 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">3 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">4 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">5 Guests</a></li>
+                    <li><a class="dropdown-item" href="#">6 Guests</a></li>
+                    </ul>
+                </div>
+                <button type="submit" class="btn btn-lg my-3 mt-5 btn-primary text-color button1">Book</button>
             </form>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <form action="">
+            <div class="col-4">
+            One of two columns
+            </div>
+            <div class="col-4">
+            One of two columns
+            </div>
+        </form>
+    </div>
+</div> 
 
 {% endblock content %}
