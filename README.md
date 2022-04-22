@@ -11,7 +11,6 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
-- [Acknowledgments](#8-acknowledgments)
 
 ## 1 Description 
 
