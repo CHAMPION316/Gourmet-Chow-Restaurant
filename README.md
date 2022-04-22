@@ -75,8 +75,38 @@ At this point in time I only have the index.html page running but will implement
 - [**Reservation Page**](docs/img/phone-reservation-page.png) allows the user to place a reservation with a date and time.
 - [**About Page**](docs/img/phone-about-page.png) allows the user to learn more about the restaurant and it's history.
 
-[**The Header**](wireframes/phone-main-page.png) : Contains an image of the inside of a restaurant that I got form [pexels](https://www.pexels.com/photo/wine-glasses-on-table-tops-941861/) which is a website that allows users to use images for free. 
+[**The Header**](docs/img/phone-main-page.png) : Contains an image of the inside of a restaurant that I got form [pexels](https://www.pexels.com/photo/wine-glasses-on-table-tops-941861/) which is a website that allows users to use images for free. 
 
 [**Section**](wireframes/phone-main-page.png) : Contains a colored background with an image of a dish that the restaurant serves with a brief description about the restaurant. 
 
 [**The Footer**](wireframes/phone-main-page.png) : includes:
+
+- **Address details**: includes a contact email to contact the owner.
+- **Phone Number**: newsletter so clients can stay up to date with new material and more.
+- **Social Media Links**: Links to the restaurants social media pages. 
+
+### 2.2. Features left to implement in the future
+
+- Create the backend for the website that allows functionality between colliding dates and times.
+- Create a downloadable pdf version of the food menu by adding a clikable link to the page.
+- Add a google maps image of the address when on the **Reservation Page** page or have google maps open when clicking on the address on the footer.
+- Have a notification window pop up when clicking on the phone number on the footer that allows one to make the call directly without having to type the numbers manually.
+
+----
+
+## 3 Technologies used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for the website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - styling for my website.
+- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
+- [Gitpod](https://gitpod.io/) - used to develop the website in the beginning. 
+- [Visual Studio Code](https://code.visualstudio.com/download) - used to develop the website outside of Gitpod.
+- [GitHub](https://github.com/) - used to host the project.
+- [Google Fonts](https://fonts.google.com/) - used to provide my fonts (font-family: 'Mallanna', 'Rajdhani')
+- [Font Awesome](https://fontawesome.com/) - used font awesome to add an emoji to the 'sign-up form' in the footer.
+- [Pexel](https://www.pexels.com/) - used to get the hero image of the beach in the header.
+- [Coolors](https://coolors.co/) - used to create the color palette for my whole website.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
+- [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find errors that don't belong in my CSS code.
+- [OneNote](https://www.onenote.com/download) - Used for rough draft ideas and note taking.
