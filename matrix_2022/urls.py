@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from reservations.views import main_page
-from reservations.views import booking_page
+from reservations.views import booking
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_page, name='main_page'),
-    path('book.html/', booking_page, name="booking_page")
+    path('book.html/', booking, name='booking')
 ]
