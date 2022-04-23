@@ -7,23 +7,26 @@
         <h1>Doing random stuff</h1>
         <h2>More random stuff</h2>
         <hr/>
-        <table border="1">
-            <tr>
-                <th>Booking Id</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Booking Date</th>
-            </tr>
-            <tr>
-                <input type="text" placeholder="First Name" name="fname" required autocomplete="off"/>
-            </tr>
-            <tr>
-                <input type="text" placeholder="Last Name" name="lname" required autocomplete="off"/>
-            </tr>
-            <tr>
-                <input type="text" placeholder="Booking Date" name="booking_start" required autocomplete="off"/>
-            </tr>
-        </table>
+        <form action="POST">
+            {% csrf_token %}
+            <table border="1">
+                <tr>
+                    <th>Booking Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Booking Date</th>
+                </tr>
+                <tr>
+                    <input type="text" placeholder="First Name" name="fname" required autocomplete="off"/>
+                </tr>
+                <tr>
+                    <input type="text" placeholder="Last Name" name="lname" required autocomplete="off"/>
+                </tr>
+                <tr>
+                    <input type="text" placeholder="Booking Date" name="booking_start" required autocomplete="off"/>
+                </tr>
+            </table>
+        </form>
     </div>
 </section>
 
