@@ -3,4 +3,4 @@ from .models import booking
 
 # Register your models here.
 
-admin.site.register(Guest)
+admin.site.register(booking)
