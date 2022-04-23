@@ -12,11 +12,11 @@ def main_page(request):
 
 def book_table(request):
     if request.method=="POST":
-        if request.POST.get('fname') and request.POST.get('lname') and request.post.get('booking_start'):
+        if request.POST.get('fname') and request.POST.get('lname') and request.POST.get('booking_start'):
             saveobj=booking()
-            saveobj.fname=request.POST.get('')
-            saveobj.lname=request.POST.get('')
-            saveobj.booking_start.request.POST.get('')
+            saveobj.fname=request.POST.get('fname')
+            saveobj.lname=request.POST.get('lname')
+            saveobj.booking_start.request.POST.get('booking_start')
             cursor=connection.cursor("insert into chow316(fname,laname,booking_start) values('"+saveobj.fname+"','"+saveobj.lname+"','"+saveobj.booking_start+"')")
             messages.success(request,"Your booking "+saveobj.fname+" has been successfully processed.")
             return render(request, "book.html")
