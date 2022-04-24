@@ -21,4 +21,6 @@ APP_NAME = "reservations"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('reservations.urls'), name='reservations_urls'),
+    path('accounts/', include('allauth.urls')),
 ]
+
