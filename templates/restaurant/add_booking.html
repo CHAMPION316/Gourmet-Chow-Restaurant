@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<section>
+    <div class="container">
+        <div class="text-center">
+            <h2>
+                <span>Booking Form</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-8 mt-3 offset-md-2">
+                    <form method="POST" action="{% url 'add_booking' %}" name="form">
+
+                        {{ form|crispy }}
+
+
+                        {% csrf_token %}
+
+                        <div class="intro-button mx-auto"><button class="btn btn-primary btn-xl"
+                                type="submit">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
