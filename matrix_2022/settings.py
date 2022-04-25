@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'cloudinary',
     'tempus_dominus',
     'crispy_forms',
+    'bootstrap4',
     'reservations',
 ]
 
