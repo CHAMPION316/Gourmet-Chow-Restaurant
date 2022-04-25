@@ -1,5 +1,8 @@
 from django.db import models
-
+from django.core.exceptions import ValidationError
+from django.core.validators import MinValueValidator
+from django.utils import timezone
+from django.contrib.auth.models import User
 
 
 class Booking(models.Model):
@@ -10,4 +13,4 @@ class Booking(models.Model):
     user = models.ForeignKey(User, null=True, blank=True)
     customer_name = models.CharField(max_length=20, null=True)
     reservation_date_and_time = models.DateTimeField(null=True)
-                             
+
