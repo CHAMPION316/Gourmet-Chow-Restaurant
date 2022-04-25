@@ -10,7 +10,10 @@ class Booking(models.Model):
     Class for booking model
     in database and for booking form.
     """
-    user = models.ForeignKey(User, null=True, blank=True)
+    user = models.ForeignKey(User, 
+                            null=True, 
+                            blank=True, 
+                            on_delete=models.CASCADE)
     customer_name = models.CharField(max_length=20, null=True)
     reservation_date_and_time = models.DateTimeField(null=True)
 
@@ -20,13 +23,24 @@ class Booking(models.Model):
         so no booking could be made 
         in the past 
         """
-         if reservation_date_and_time < timezone.now():
+        if reservation_date_and_time < timezone.now():
             raise ValidationError("Date cannot be in the past")
-    reservation_date_and_time = models.DateTimeField(null=True, blank=True, validators=[validate_date])
-    number_of_customers = models.PositiveIntegerField(null=True, validators=[MinValueValidator(1)])
+    reservation_date_and_time = models.DateTimeField(
+                                null=True, 
+                                blank=True, 
+                                validators=[validate_date])
+    number_of_customers = models.PositiveIntegerField(
+                            null=True, 
+                            validators=[MinValueValidator(1)])
     phone_number = models.CharField(null=True, blank=True, max_length=14)
     created_on = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        """
+        Metadata for class Booking
+        """
+        unique_together = ('user', 'customer_name', 'reservation_date_and_time')
+        ordering = ["-created_on"]
+
 
     
-
