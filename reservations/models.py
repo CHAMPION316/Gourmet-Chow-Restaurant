@@ -23,3 +23,4 @@ class Booking(models.Model):
          if reservation_date_and_time < timezone.now():
             raise ValidationError("Date cannot be in the past")
     reservation_date_and_time = models.DateTimeField(null=True, blank=True, validators=[validate_date])
+    number_of_customers = models.PositiveIntegerField(null=True, validators=[MinValueValidator(1)])
