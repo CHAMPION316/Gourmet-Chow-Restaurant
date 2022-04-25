@@ -42,5 +42,12 @@ class Booking(models.Model):
         unique_together = ('user', 'customer_name', 'reservation_date_and_time')
         ordering = ["-created_on"]
 
-
-    
+        def __str__(self):
+        """
+        Return object model items
+        as a string.
+        """
+        return f' User {self.user} has made a booking \
+                   for {self.customer_name}\
+                   for {self.number_of_customers} customers\
+                   for {self.reservation_date_and_time}.'
