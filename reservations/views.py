@@ -11,7 +11,7 @@ def handler404(request, *args, **argv):
     context = {
         'form': form
         }
-    response = render(request, 'restaurant/not_found.html', context)
+    response = render(request, 'reservations/not_found.html', context)
     response.status_code = 404
     return response
 
@@ -25,7 +25,7 @@ def handler500(request, *args, **argv):
     context = {
         'bookings': bookings
     }
-    response = render(request, 'restaurant/duplicate_booking.html', context)
+    response = render(request, 'reservations/duplicate_booking.html', context)
     response.status_code = 500
     return response
 
@@ -34,21 +34,21 @@ def view_home(request):
     """
     Function enables user to view the home page.
     """
-    return render(request, 'restaurant/index.html')
+    return render(request, 'reservations/index.html')
 
 
 def view_menu(request):
     """
     Function enables user to view the menu page.
     """
-    return render(request, 'restaurant/menu.html')
+    return render(request, 'reservations/menu.html')
 
 
 def contact(request):
     """
     Function enables user to view the menu page.
     """
-    return render(request, 'restaurant/contact.html')
+    return render(request, 'reservations/contact.html')
 
 
 @login_required
@@ -72,7 +72,7 @@ def add_booking(request):
     context = {
         'form': form
         }
-    return render(request, 'restaurant/add_booking.html', context)
+    return render(request, 'reservations/add_booking.html', context)
 
 
 @login_required
@@ -85,7 +85,7 @@ def view_booking(request):
     context = {
         'bookings': bookings
     }
-    return render(request, 'restaurant/view_booking.html', context)
+    return render(request, 'reservations/view_booking.html', context)
 
 
 @login_required
@@ -107,4 +107,13 @@ def edit_booking(request, booking_id):
     context = {
         'form': form
     }
-    return render(request, 'restaurant/edit_booking.html', context)
+    return render(request, 'reservations/edit_booking.html', context)
+
+
+@login_required
+def delete_booking(request, booking_id):
+    """
+    Function that allows user to delete a booking
+    after it has been made and added to the database.
+    """
+    return render(request, 'reservations/delete_booking.html', context)
