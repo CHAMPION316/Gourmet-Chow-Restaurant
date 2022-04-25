@@ -1,5 +1,6 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-
+from .models import Booking
 
 def handler404(request, *args, **argv):
     """
@@ -48,3 +49,13 @@ def contact(request):
     Function enables user to view the menu page.
     """
     return render(request, 'restaurant/contact.html')
+
+
+@login_required
+def add_booking(request):
+    """
+    Function that allows the user to
+    create a booking and add it 
+    to the database.
+    """
+    return render(request, 'restaurant/add_booking.html', context)
