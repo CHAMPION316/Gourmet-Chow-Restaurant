@@ -94,4 +94,8 @@ def edit_booking(request, booking_id):
     Function that allows the user to edit a booking
     after it has been made and added to the database.
     """
+    bookings = Booking.objects.filter(user__in=[request.user])
+    context = {
+        'bookings': bookings
+    }
     return render(request, 'restaurant/view_booking.html', context)
