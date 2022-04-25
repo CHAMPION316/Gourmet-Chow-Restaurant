@@ -3,6 +3,15 @@
 {% block content %}
 {% load crispy_forms_tags %}
 
-
+<div class="container">
+    <div class="text-center">
+        <h2>
+            <span>Edit this booking?</span>
+        </h2>
+        <p>
+            <a href="{% url 'view_booking' %}">Never mind, return to booking</a>
+        </p>
+    </div>
+</div>
 
 {% endblock content%}
