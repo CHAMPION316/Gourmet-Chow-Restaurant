@@ -86,4 +86,12 @@ def view_booking(request):
         'bookings': bookings
     }
     return render(request, 'restaurant/view_booking.html', context)
-    
+
+
+@login_required
+def edit_booking(request, booking_id):
+    """
+    Function that allows the user to edit a booking
+    after it has been made and added to the database.
+    """
+    return render(request, 'restaurant/view_booking.html', context)
