@@ -81,4 +81,9 @@ def view_booking(request):
     Function that allows the user to view a booking
     after it has been made and added to the database.
     """
+    bookings = Booking.objects.filter(user__in=[request.user])
+    context = {
+        'bookings': bookings
+    }
     return render(request, 'restaurant/view_booking.html', context)
+    
