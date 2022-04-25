@@ -11,6 +11,21 @@
         <p>
             <a href="{% url 'view_booking' %}">Never mind, return to booking</a>
         </p>
+        <div class="row">
+            <div class="col-md-8 mt-3 offset-md-2">
+                <form action="POST" name="form">
+
+                    {{form|crispy}}
+                    {% csrf_token %}
+
+                    <div class="intro-button mx-auto">
+                        <button class="btn btn-primary btn-xl" type="submit">
+                            Submit edited booking
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 
