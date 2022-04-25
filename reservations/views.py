@@ -73,3 +73,12 @@ def add_booking(request):
         'form': form
         }
     return render(request, 'restaurant/add_booking.html', context)
+
+
+@login_required
+def view_booking(request):
+    """
+    Function that allows the user to view a booking
+    after it has been made and added to the database.
+    """
+    return render(request, 'restaurant/view_booking.html', context)
