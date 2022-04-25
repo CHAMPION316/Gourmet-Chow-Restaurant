@@ -34,4 +34,17 @@ def view_home(request):
     Function enables user to view the home page.
     """
     return render(request, 'restaurant/index.html')
-    
+
+
+def view_menu(request):
+    """
+    Function enables user to view the menu page.
+    """
+    return render(request, 'restaurant/menu.html')
+
+
+def contact(request):
+    """
+    Function enables user to view the menu page.
+    """
+    return render(request, 'restaurant/contact.html')
