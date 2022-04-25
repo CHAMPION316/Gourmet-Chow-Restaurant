@@ -1,3 +1,6 @@
+"""
+Booking model in the admin UI
+"""
 from django.contrib.admin import ModelAdmin
 from django.contrib import admin
 from .models import Booking
