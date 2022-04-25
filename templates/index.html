@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
+{% csrf_token %}
 
 <header id="main-header">
     <div class="landing-text">
@@ -29,6 +30,5 @@
       </div>
     </div>
   </section>
-  <!-- testing -->
 
 {% endblock content %}
