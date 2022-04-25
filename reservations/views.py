@@ -27,3 +27,11 @@ def handler500(request, *args, **argv):
     response = render(request, 'restaurant/duplicate_booking.html', context)
     response.status_code = 500
     return response
+
+
+def view_home(request):
+    """
+    Function enables user to view the home page.
+    """
+    return render(request, 'restaurant/index.html')
+    
