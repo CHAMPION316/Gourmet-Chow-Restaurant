@@ -24,3 +24,9 @@ class Booking(models.Model):
             raise ValidationError("Date cannot be in the past")
     reservation_date_and_time = models.DateTimeField(null=True, blank=True, validators=[validate_date])
     number_of_customers = models.PositiveIntegerField(null=True, validators=[MinValueValidator(1)])
+    phone_number = models.CharField(null=True, blank=True, max_length=14)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+
+    
+
