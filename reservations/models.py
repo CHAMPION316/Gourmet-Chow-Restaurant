@@ -14,3 +14,12 @@ class Booking(models.Model):
     customer_name = models.CharField(max_length=20, null=True)
     reservation_date_and_time = models.DateTimeField(null=True)
 
+    def validate_date(reservation_date_and_time):
+        """
+        Function that validates date
+        so no booking could be made 
+        in the past 
+        """
+         if reservation_date_and_time < timezone.now():
+            raise ValidationError("Date cannot be in the past")
+    reservation_date_and_time = models.DateTimeField(null=True, blank=True, validators=[validate_date])
