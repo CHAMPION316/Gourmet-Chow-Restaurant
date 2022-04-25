@@ -58,4 +58,18 @@ def add_booking(request):
     create a booking and add it 
     to the database.
     """
+    if request.method == 'POST':
+        form = BookingForm(request.POST)
+        if form.is_valid():
+            booking = form.save()
+            booking.user = request.user
+            booking.save()
+            messages.success(request, 'Booking completed.')
+            return redirect('view_booking')
+        else:
+            messages.error(request, 'Please book with a future date.')
+    form = BookingForm()
+    context = {
+        'form': form
+        }
     return render(request, 'restaurant/add_booking.html', context)
