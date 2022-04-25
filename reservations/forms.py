@@ -1,6 +1,9 @@
-# from django import forms
-# from .models import Guest
+from tempus_dominus.widgets import DateTimePicker
+from django import forms
+from .models import Booking
 
-# class GuestForm(forms.Modelform):
-#     class Meta:
-#         model = Guest
+
+class BookingForm(forms.ModelForm):
+    """
+    Class to construct booking form from the model.
+    """
