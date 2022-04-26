@@ -209,4 +209,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ### 7.1 Content
  
-- I would like to thank my lovely wife for being there during this crazy year of up and downs especially when it comes to traveling for work which a lot of the time hinders my time with the course. I want to thank the team over at CodeInstitute especially Simen Daehlin for being a fantastic mentor and pushing me to meet deadlines. Everyone at Slack and the wonderful pages upon pages of information you find over at stackoverflow.com 
+- I would like to thank my lovely wife for being there during this crazy year of up and downs especially when it comes to traveling for work which a lot of the time hinders my time with the course. I want to thank the team over at CodeInstitute especially Simen Daehlin for being a fantastic mentor and pushing me to meet deadlines. Everyone at Slack and the wonderful pages upon pages of information you find over at stackoverflow.com Big thanks to an old friend of mine nick named (Wheels) who is a programmer and helped me out with this project as much as he could. 
