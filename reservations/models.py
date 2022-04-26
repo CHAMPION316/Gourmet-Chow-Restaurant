@@ -42,7 +42,8 @@ class Booking(models.Model):
         """
         Metadata for class Booking
         """
-        unique_together = ('user', 'customer_name', 'reservation_date_and_time')
+        unique_together = ('user', 'customer_name', 
+        'reservation_date_and_time')
         ordering = ["-created_on"]
 
     def __str__(self):
