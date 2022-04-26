@@ -59,6 +59,16 @@ LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
+# MESSAGE_TAGS = {
+#     messages.DEBUG: 'alert-info',
+#     messages.INFO: 'alert-info',
+#     messages.SUCCESS: 'alert-success',
+#     messages.WARNING: 'alert-warning',
+#     messages.ERROR: 'alert-danger',
+# }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPUS_DOMINUS_LOCALIZE = False
 
 MIDDLEWARE = [
