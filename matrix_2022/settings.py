@@ -59,7 +59,7 @@ LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
-TEMPUS_DOMINUS_LOCALIZE = True
+TEMPUS_DOMINUS_LOCALIZE = False
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
