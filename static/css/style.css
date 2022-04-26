@@ -95,7 +95,11 @@ html, body {
 }
 
 .copyright-color {
-    color: #d36cbd
+    color: #d36cbd;
+}
+
+.my-p-color {
+    color: #d36cbd;
 }
 
 .bg-times {
