@@ -24,5 +24,5 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
 ]
 
-handler404 = 'reservations.views.handler404'
-handler500 = 'reservations.views.handler500'
+# handler404 = 'reservations.views.handler404'
+# handler500 = 'reservations.views.handler500'
