@@ -163,3 +163,9 @@ footer {
         margin-top: 25px;
     }
 }
+
+/* .......................................messages */
+
+#msg {
+    text-color: white;
+}
