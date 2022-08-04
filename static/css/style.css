@@ -98,10 +98,6 @@ html, body {
     color: #d36cbd;
 }
 
-.my-p-color {
-    color: #d36cbd;
-}
-
 .bg-times {
     background-color: #d36cbd;
     padding: 0.2rem;
@@ -137,6 +133,25 @@ footer {
     text-decoration: none;
     background-color: #d36cbd;
     border-color: #d36cbd;
+}
+
+.button1:hover {
+    border-color: white;
+    border-radius: 3px;
+}
+
+/*...........................................href links */
+
+.change-effect {
+  box-shadow: inset 0 0 0 0 #f799f4;
+  color: #d36cbd;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.change-effect:hover {
+  box-shadow: inset 100px 0 0 0 #d36cbd;
+  color: white;
 }
 
 /*--------------------------------------------Media Queries*/

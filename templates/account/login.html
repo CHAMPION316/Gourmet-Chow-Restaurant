@@ -14,15 +14,15 @@
                 alt="Girl with tray of food and driks" />
       <div class="intro-text left-0 text-center bg-faded p-5 rounded">
         <h2 class="section-heading mb-4">
-          <span class="section-heading-upper">{% trans "Sign In" %}</span>
+          <span class="section-heading-upper text-white">{% trans "Sign In" %}</span>
         </h2>
         <div class="row">
           <div class="col-md-8 mt-3 offset-md-2">
-              <p>{% blocktrans %}If you have not created an account yet, then please
-                <a href="{{ signup_url }}">sign up</a> to make reservations.{% endblocktrans %}</p>
+              <p class="text-white">{% blocktrans %}If you have not created an account yet, then please
+                <a href="{{ signup_url }}" class="text-decoration-none fw-bold change-effect">sign up</a> to make reservations.{% endblocktrans %}</p>
 
 
-              <form class="login" method="POST" action="{% url 'account_login' %}">
+              <form class="login text-white" method="POST" action="{% url 'account_login' %}">
                 {% csrf_token %}
                 {{ form|crispy }}
                 {% if redirect_field_value %}
@@ -30,7 +30,7 @@
                 {% endif %}
                 {% csrf_token %}
 
-                    <button class="btn btn-signup right btn-success" type="submit">{% trans "Sign In" %}</button>
+                    <button class="btn btn-signup right button1" type="submit">{% trans "Sign In" %}</button>
               </form>
           </div>
          </div>
