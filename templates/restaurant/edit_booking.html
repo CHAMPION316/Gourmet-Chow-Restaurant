@@ -4,12 +4,12 @@
 {% load crispy_forms_tags %}
 
 <div class="container">
-    <div class="text-center">
+    <div class="text-center text-white">
         <h2>
             <span>Edit this booking?</span>
         </h2>
         <p>
-            <a href="{% url 'view_booking' %}">Never mind, return to booking</a>
+            <a href="{% url 'view_booking' %}" class="text-decoration-none fw-bold change-effect">Return to booking</a>
         </p>
         <div class="row">
             <div class="col-md-8 mt-3 offset-md-2">
@@ -18,7 +18,7 @@
                     {{form|crispy}}
                     {% csrf_token %}
 
-                    <div class="intro-button mx-auto">
+                    <div class="intro-button mx-auto py-3">
                         <button class="btn btn-primary btn-xl" type="submit">
                             Submit edited booking
                         </button>

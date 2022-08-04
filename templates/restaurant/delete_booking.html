@@ -4,20 +4,20 @@
 {% load crispy_forms_tags %}
 
 <div class="container">
-    <h2>
+    <h2 class="text-white">
         <span>Procee with deleting your booking?</span>
     </h2>
-    <p><a href="{% url 'view_booking' %}">Return to booking</a></p>
+    <p><a href="{% url 'view_booking' %}" class="text-decoration-none fw-bold change-effect">Return to booking</a></p>
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-            <form method="POST" name="form">
+            <form method="POST" name="form" class="text-white">
 
                 {{form|crispy}}
                 {% csrf_token %}
                 
-                <div class="intro-button mx-auto">
+                <div class="intro-button mx-auto py-3">
                     <a href="/delete/{{ booking.id }}">
-                        <button class="btn btn-danger btn-primary btn-xl">Delete Booking</button>
+                        <button class="btn btn-danger">Delete Booking</button>
                     </a>
                 </div>
             </form>
