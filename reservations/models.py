@@ -6,6 +6,9 @@ from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator
 from django.utils import timezone
 from django.contrib.auth.models import User
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 
 class Booking(models.Model):
