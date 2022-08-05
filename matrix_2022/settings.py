@@ -27,9 +27,12 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
+CLOUD_NAME = os.environ.get('CLOUD_NAME')
+CLOUDINARY_KEY = os.environ.get('CLOUDINARY_KEY')
+CLOUDINARY_SECRET = os.environ.get('CLOUDINARY_SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['gourmet-chow.herokuapp.com', 'localhost']
 
