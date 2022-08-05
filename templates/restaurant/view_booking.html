@@ -48,4 +48,56 @@
     </table>
 </div>
 
-{% endblock content %}
+<!-- {% endblock content %}
+
+<div class="table-responsive-sm">
+    <table class="table table-hover table-dark">
+      <tr>
+        <th scope="col">Logged in User</th>
+        <td>{{ user.username }}</td>
+      </tr>
+      {% for booking in bookings %}
+      
+      <tr>
+        <th class="col">Booking id</th>
+        <td>{{ booking.id }}</td>
+      </tr>
+      <tr>
+        <th>Customer Name</th>
+        <td>{{ booking.customer_name }}</td>
+      </tr>
+      <tr>
+        <th class="col">Reservation date and time</th>
+        <td>{{ booking.reservation_date_and_time }}</td>
+      </tr>
+      <tr>
+        <th class="col">Phone Number</th>
+        <td>{{ booking.phone_number }}</td>
+      </tr>
+      <tr>
+        <th class="col">Number of guests</th>
+        <td>{{ booking.number_of_customers}}</td>
+      </tr>
+      <tr>
+        <th>Edit Booking</th>
+        <td>
+            <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
+                href="/edit/{{ booking.id }}">Edit
+                Booking</a></div>
+        </td>
+      </tr>
+      <p></p>
+      <p></p>
+      <tr>
+        <th>Delete Booking</th>
+        <td>
+            <div class="intro-button mx-auto"><a class="btn btn-primary btn-danger btn-xl"
+                href="/delete/{{ booking.id }}">Delete Booking</a></div>
+        </td>
+      </tr>
+
+    {% endfor %}
+    {% csrf_token %}
+
+    </table>
+  </div> -->
