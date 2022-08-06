@@ -3,7 +3,7 @@ Booking model in the admin UI
 """
 from django.contrib.admin import ModelAdmin
 from django.contrib import admin
-from .models import Booking, Picture
+from .models import Booking
 
 
 @admin.register(Booking)
@@ -21,6 +21,4 @@ class BookingAdmin(ModelAdmin):
     list_filter = ('customer_name',
                    'reservation_date_and_time',
                    'phone_number')
-
-
-admin.site.register(Picture)
+                   

@@ -4,7 +4,7 @@ VIEWS
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
-from .models import Booking, Picture
+from .models import Booking
 from .forms import BookingForm
 
 # def handler404(request, *args, **argv):
@@ -39,9 +39,7 @@ def view_home(request):
     """
     Function enables user to view the home page.
     """
-    pictures = Picture.objects.all()
-    context = {'pictures': pictures}
-    return render(request, 'restaurant/index.html', context)
+    return render(request, 'restaurant/index.html')
 
 
 def view_menu(request):
