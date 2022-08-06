@@ -35,7 +35,7 @@ CLOUDINARY_KEY = os.environ.get('CLOUDINARY_KEY')
 CLOUDINARY_SECRET = os.environ.get('CLOUDINARY_SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['gourmet-chow.herokuapp.com', 'localhost']
 

@@ -6,6 +6,7 @@ from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator
 from django.utils import timezone
 from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 
 class Booking(models.Model):
     """
@@ -54,3 +55,7 @@ class Booking(models.Model):
                     for {self.customer_name}\
                     for {self.number_of_customers} customers\
                     for {self.reservation_date_and_time}.'
+
+
+class Picture(models.Model):
+  image = CloudinaryField('image')
