@@ -16,7 +16,9 @@ import dj_database_url
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+
 from django.contrib.messages import constants as messages
+
 if os.path.isfile('env.py'):
     import env
 
@@ -33,6 +35,7 @@ CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
 CLOUD_NAME = os.environ.get('CLOUD_NAME')
 CLOUDINARY_KEY = os.environ.get('CLOUDINARY_KEY')
 CLOUDINARY_SECRET = os.environ.get('CLOUDINARY_SECRET')
+GOOGLEMAPS_SECRET = os.environ.get('GOOGLEMAPS_SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

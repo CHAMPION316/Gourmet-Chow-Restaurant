@@ -45,7 +45,8 @@ html, body {
 .landing-text {
     display: table-cell;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .landing-text h1 {
@@ -158,7 +159,7 @@ footer {
     }
 
     .landing-text {
-        padding-top: 85px;
+        padding-top: 40px;
     }
 
     .landing-text h1, h3 {
