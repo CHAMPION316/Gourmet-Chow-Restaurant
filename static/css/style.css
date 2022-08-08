@@ -178,3 +178,16 @@ footer {
         margin-top: 25px;
     }
 }
+
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* Set the size of the div element that contains the map */
+#map {
+    min-height: 300px;
+    /* The height is 300 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
