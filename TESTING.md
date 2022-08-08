@@ -21,4 +21,10 @@
 | forms.py | reservations/forms.py | PASS | [link](docs/python-test/forms-validation.png) ||
 | apps.py | reservations/apps.py | PASS | [link](docs/python-test/apps-validation.png) ||
 | models.py | reservations/models.py | PASS | [link](docs/python-test/models-validation.png) ||
+| views.py | reservations/views.py | PASS | [link](docs/python-test/views-validation.png) ||
 | urls.py | bag/urls.py | PASS | [link](readme/docs/validation/python/bag/urls.png "link") ||
+
+### CSS
+| File Name | File Path | Result | W3C | Comments |
+|--|--|--|--|--|
+| base.css | static/css/style.css | PASS | [link](docs/css-test/style-validation.png) |[1 warnings](docs/css-test/css-warning.png)|

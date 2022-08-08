@@ -9,7 +9,20 @@ html, body {
     background-color: #212529
 }
 
-/*--------------------------------------------Nav-bar*/
+/* Contents */
+/* 
+    1. Nav-bar
+    2. Header
+    3. Section
+    4. Text-Color
+    5. Footer
+    6. Button
+    7. Links
+    8. Media Queries
+    9. Google Map 
+*/
+
+/*-------------------------------------------- 1. Nav-bar*/
 
 .navbar-brand {
     padding: 0;
@@ -31,7 +44,7 @@ html, body {
     border-bottom: 2px solid #d36cbd
 }
 
-/*--------------------------------------------Header*/
+/*-------------------------------------------- 2. Header*/
 
 #main-header {
     background: url(https://res.cloudinary.com/champion316r/image/upload/v1650967685/static/img/pexels-chan-walrus-941861.0b4ca5b9a1d2.jpg) no-repeat center center fixed;
@@ -60,7 +73,7 @@ html, body {
     font-style: italic;
 }
 
-/*--------------------------------------------Section*/
+/*-------------------------------------------- 3. Section*/
 
 .bg-color {
     background-color: #212529;
@@ -88,7 +101,7 @@ html, body {
     line-height: 2;
 }
 
-/*-----------------------------------------Booking Times text color*/
+/*----------------------------------------- 4. Text Color*/
 
 .text-color {
     color: #fff;
@@ -108,7 +121,7 @@ html, body {
     color: #d36cbd;
 }
 
-/*--------------------------------------------Footer*/
+/*-------------------------------------------- 5. Footer*/
 
 footer {
     width: 100%;
@@ -127,12 +140,11 @@ footer {
     text-decoration: none;
 }
 
-/*........................................Button*/
+/*........................................ 6. Button*/
 
 .button1 {
     text-decoration: none;
     background-color: #d36cbd;
-    border-color: #d36cbd;
 }
 
 .button1:hover {
@@ -140,7 +152,7 @@ footer {
     border-radius: 3px;
 }
 
-/*...........................................href links*/
+/*........................................... 7. href links*/
 
 .change-effect {
     color: #d36cbd;
@@ -149,7 +161,7 @@ footer {
     color: #feb2ee;
 }
 
-/*--------------------------------------------Media Queries*/
+/*-------------------------------------------- 8. Media Queries*/
 
 @media (max-width: 768px) {
     .landing-text img {
@@ -178,7 +190,7 @@ footer {
     }
 }
 
-/*...................................Google Maps id*/
+/*................................... 9. Google Maps id*/
 
 #map {
     height: 300px;
