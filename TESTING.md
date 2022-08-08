@@ -1,32 +1,14 @@
-# TESTING
+## Code Validation
 
-Testing was done using the (IDE) Visual Studio on Windows 10 using a _**Surface Pro 6**_ 
-
-## Python Code Issues 
- ### Line Too Long
- ### Missing Module Docstring
-
-- [**admin.py test**](docs/python-test/admin-test.jpg)
-- [**forms.py test**](docs/python-test/forms-test.jpg)
-- [**models.py test**](docs/python-test/models-test.jpg)
-- [**urls-test.jpg**](docs/python-test/urls-test.jpg)
-
-## HTML Code Issues
- ### Error: Bad Value
-
--[**html**](docs/html-test/html-test2.jpg)
--[**Python Code in HTML](docs/html-test/html-tests.jpg)
-
-## CSS Code Issues
- ### None
- 
- -[**CSS Code**](docs/css-test/css-test.jpg) 
-
-## MAJOR ERROR ISSUE!!!!!!
-- I was able to render the pages a few hours ago until now. I pulled two all nighters to try and get this done. I don't know what happend but it seems to be an issue with the **CRISPY_TEMPLATE_PACK = 'bootstrap4'** that is causing this and I tried for hours to fix the issue but I'm afraid I'm going to make it worse. I will just submit the project as is because all the code is there but I understand that there is no way of grading this properly and I don't want to miss the deadline which is in 5 hours. The issue I'm getting is as follows:
-
--[**TemplateDoesNotExist**](docs/render-test/render-pages.jpg)
-
-
-## My apologies 
-The second half of this course has been difficult for me. I need more time with object-oriented programming to grasp a lot of the concepts. Other issues outside the course have played a role but that's no excuse. This has truly been a difficult to say the least.
+### HTML
+| File Name | File Path | Result | W3C | Comments |
+|--|--|--|--|--|
+| base.html | templates/restaurant/index.html | PASS | [link](docs/html-test/index-validation.png) ||
+| menu.html | templates/restaurant/menu.html | PASS | [link](docs/html-test/menu-validation.png) ||
+| add_booking.html | templates/restaurant/add_booking.html | Fail (widget) | [link](docs/html-test/add-booking-validation.png) ||
+| contact.html | templates/restaurant/contact.html | PASS |[link](docs/html-test/contact-validation.png)  ||
+| view_booking.html | templates/restaurant/view_booking.html | Fail (input in table) | [link](docs/html-test/view-booking-validation.png) ||
+| edit_booking.html | templates/restaurant/edit_booking.html | 1-Error 2-Warnings | [link](docs/html-test/edit-booking-validation.png) ||
+| delete_booking.html | templates/restaurant/delete_booking.html | 2-Errors 2-Warnings | [link](docs/html-test/delete-booking-validation.png) ||
+| logout.html | templates/account/logout.html | PASS | [link](docs/html-test/logout-validation.png) ||
+| login.html | templates/account/login.html | PASS | [link](docs/html-test/login-validation.png) ||
