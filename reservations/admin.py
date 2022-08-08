@@ -21,4 +21,3 @@ class BookingAdmin(ModelAdmin):
     list_filter = ('customer_name',
                    'reservation_date_and_time',
                    'phone_number')
-                   

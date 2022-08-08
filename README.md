@@ -114,13 +114,6 @@ At this point in time I only have the index.html page running but will implement
 
 ### [Code Validation](TESTING.md)
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-- The testing process was done on a separate file [TESTING.md](TESTING.md)
 
 ----
 
