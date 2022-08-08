@@ -3,14 +3,13 @@
 
 A gourmet restaurant with an extravagant menu located in lower manhattan. 
 
-## Table of contents
-
-- [Description](#1-description)
-- [Technologies used](#3-technologies-used)
-- [Testing](#4-testing)
-- [Improvements](#5-improvements)
-- [Deployment](#6-deployment)
-- [Credits](#7-credits)
+# Table of Contents
+- [Description](#description)
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+- [Improvements](#improvements)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## 1 Description 
 
@@ -111,7 +110,15 @@ At this point in time I only have the index.html page running but will implement
 - [Python Validator](https://peps.python.org/pep-0008/) - used to find errors in python code.
 - [OneNote](https://www.onenote.com/download) - Used for rough draft ideas and note taking.
 
-## 4. Testing
+# Testing
+
+### [Code Validation](TESTING.md)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 - The testing process was done on a separate file [TESTING.md](TESTING.md)
 
