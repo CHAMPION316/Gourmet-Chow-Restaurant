@@ -7,6 +7,7 @@ from django.contrib import messages
 from .models import Booking
 from .forms import BookingForm
 
+
 def handler404(request, *args, **argv):
     """
     A Function to trigger a 404 error
@@ -60,7 +61,7 @@ def contact(request):
 def add_booking(request):
     """
     Function that allows the user to
-    create a booking and add it 
+    create a booking and add it
     to the database.
     """
     if request.method == 'POST':
