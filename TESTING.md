@@ -28,3 +28,24 @@
 | File Name | File Path | Result | W3C | Comments |
 |--|--|--|--|--|
 | base.css | static/css/style.css | PASS | [link](docs/css-test/style-validation.png) |[1 warnings](docs/css-test/css-warning.png)|
+
+
+### JS
+| File Name | File Path | Result | JSHint | Comments |
+|--|--|--|--|--|
+| script.js | static/js/script.js | PASS | [link](docs/js-test/script-validation.png) || [4 Warnings](docs/js-test/script-warning.png)
+| contact.js | static/js/contact/contact.js | PASS | [link](docs/js-test/contact-validation.png) || [3 Warnings](docs/js-test/contact-warning.png)
+
+\
+&nbsp; 
+
+
+## Bugs
+
+| Issue Number |  Title | Comments 
+|--|--|--|
+| [Issue #26](https://github.com/sam-timmins/swanbourne_village_stores/issues/26 "Issue #26") | Navbar authentication links | Login and register links are stacked when the user is unauthenticated |
+| [Issue #61](https://github.com/sam-timmins/swanbourne_village_stores/issues/61 "Issue #61") | Create product form slug error | When there is an error during creating a product, the slug error text shows and throws off the styling.|
+| [Issue #51](https://github.com/sam-timmins/swanbourne_village_stores/issues/51 "Issue #51") | Dropdown Menu | The dropdown menu class has a style applied to it giving a max-width. |
+| [Issue #110](https://github.com/sam-timmins/swanbourne_village_stores/issues/110 "Issue #110") | Webhooks | Webhooks are not working, getting a 401 error in Stripe |
+| [Issue #129](https://github.com/sam-timmins/swanbourne_village_stores/issues/129 "Issue #129") | Edit works link in navbar not working | Edit works link in navbar not working, giving a 500 error |

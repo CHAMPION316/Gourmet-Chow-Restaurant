@@ -1,8 +1,3 @@
-"""
-Url file to allow connection between
-different pages in the app.
-"""
-
 from django.urls import path
 from reservations import views
 
