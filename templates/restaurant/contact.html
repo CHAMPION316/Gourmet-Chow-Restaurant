@@ -112,4 +112,10 @@
 
 {% block postloadjs %}
     {{ block.super }}
+    <!-- Path to js rendered maps script -->
+    <script type="module" src="{% static 'js/contact/contact.js' %}"></script>
+
+    <!-- Google Maps -->
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
 {% endblock %}
