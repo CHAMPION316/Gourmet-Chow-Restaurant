@@ -2,7 +2,7 @@
 window.addEventListener('DOMContentLoaded', event => {
     const listHoursArray = document.body.querySelectorAll('.list-hours li');
     listHoursArray[new Date().getDay()].classList.add(('today'));
-})
+});
 
 function deferDateTimePicker_id_reservation_date_and_time() {
     if (window.jQuery && $.fn.datetimepicker) {
@@ -15,7 +15,7 @@ function deferDateTimePicker_id_reservation_date_and_time() {
         });
     } else {
         setTimeout(function () {
-            deferDateTimePicker_id_reservation_date_and_time()
+            deferDateTimePicker_id_reservation_date_and_time();
         }, 50);
     }
 }
