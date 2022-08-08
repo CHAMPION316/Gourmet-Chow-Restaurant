@@ -71,7 +71,6 @@ html, body {
 }
 
  .padding img {
-    /* width: 100%; */
     border: 2px solid #d36cbd;
 } 
 
@@ -141,7 +140,7 @@ footer {
     border-radius: 3px;
 }
 
-/*...........................................href links */
+/*...........................................href links*/
 
 .change-effect {
     color: #d36cbd;
@@ -179,15 +178,9 @@ footer {
     }
 }
 
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * SPDX-License-Identifier: Apache-2.0
- */
-/* Set the size of the div element that contains the map */
+/*...................................Google Maps id*/
+
 #map {
     height: 300px;
-    /* The height is 300 pixels */
     width: 100%;
-    /* The width is the width of the web page */
   }
