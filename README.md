@@ -12,7 +12,6 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
     * [Requirements and Expectations](#requirements-and-expectations)
-* [Marketing](#marketing "Marketing")
 * [Wireframes](#wireframes "Wireframes")
 * [Design Choices](#design-choices "Design Choices")
 * [Technologies used](#technologies-used)
