@@ -15,29 +15,60 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
 * [Marketing](#marketing "Marketing")
 * [Wireframes](#wireframes "Wireframes")
 * [Design Choices](#design-choices "Design Choices")
-- [Description](#description)
-- [Technologies used](#technologies-used)
-- [Testing](#testing)
-- [Improvements](#improvements)
-- [Deployment](#deployment)
-- [Credits](#credits)
+* [Description](#description)
+* [Technologies used](#technologies-used)
+* [Testing](#testing)
+* [Improvements](#improvements)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-## 1 Description 
+## 1 Background 
 
 Chow Chow is a fictional restaurant located in NYC that serves gourmet food for expensive prices. It specializes in steak. The name comes from the cute dog breed "Chow Chow" which is where the play on words comes from. 
 
-### 1.1 Project Goals 
+# Mission Statement 
 
 To create a website that is designed so that a user can book an appointment at the restaurant on a specific date and time with ease of use. While preventing double bookings acorss those dates and times. I want it to be easy to navigate across all devices with good readability. 
 
-### 1.2 UX
+# Target Audience
 
-I decicded to go with the main color of pink since it's a happy color but also a romantic color. I want this restaurant to be connected with "dating" which is the vibe I'm going for. The 3 main colors I chose were created using the website [coolors](https://coolors.co/)
+Individuals interested in amazing tasting food looking for an atmosphere suitable for privacy and comfort.
 
-Here is the color palette I have come up with:
-- [Chow-color-palette](docs/img/chow-color-palette.png) 
+# Target Audience
+The customers who use Swanbourne Village Stores currently range from 30-year-old professionals to 80 plus-year-old senior citizens. However, the owners of the store are looking to increase their 30 to 55 age bracket customers with the convenience of a click, purchase and collect web application, so primarily this is the target audience for the application.
 
-### 1.3 User Stories 
+# Stakeholder Interviews
+
+## User Persona
+Interviews were carried out with locals in New York City as well as tourists. The only kind of people that were interested were those of wealthy class that wanted to experience an intimate place for them and their loved ones.
+
+&nbsp;
+
+| Name | Age | Uses the Service | Meals Ordered per Month
+| -- | -- | -- | --
+| Elon Musk | 51 | 50% owner | 3
+| Mark Davis | 67 | Yes | 1
+| Zack Snyder | 56 | Yes | 3
+| Tom Brady | 45 | Yes | 2
+| Maxx Crosby | 24 | Yes | 4
+| Ben Affleck | 49 | Yes | 2
+| Tim Burton | 63 | No | N/A
+| Roger Goodell | 63 | No | N/A
+| Michael Jordan | 59 | Yes | 1
+| Gal Gadot | 37 | Yes | 2
+
+&nbsp;
+
+## User Goals
+From the resulting interviews, the user goals have been defined:
+
+1. Create, cancel, edit a booking
+1. Purcha
+1. Login and out functionality
+1. View company contact details
+1. Have a pleasant menu to look at
+
+## User Stories 
 
 - As a user, I expect to navigate the website with ease of use.
 - As a user, I expect to find the food menu as fast as possible.
@@ -46,10 +77,28 @@ Here is the color palette I have come up with:
 - As a user, I expect to book a table with a number of guests. 
 - As a user, I expect to cancel my booking if plans change before hand. 
 - As a user, I expect to be able to download the menu as a pdf if possible. 
-- As a user, I expect to combine multiple tables if we have more than the guest limit for bookings.
 - As a creator, I expect the user to find what they need on the main page.
 - As a creator, I expect the user to find the address of the restaurant within the first 45 seconds.
 - As a creator, I expect the user to enjoy a simplistic menu that isn't all over the place. 
+
+&nbsp;
+
+## Requirements and Expectations
+
+| Requirement | Expectation
+| -- | --
+| Visually appealing and well laid out | Colours to be complimentary, text to be clear. Navigation to be logical and simple
+| Responsive design (Mobile first) | The screen size to not affect the look of the application 
+| Contact information laid out nicely | Easy to understand and find what is needed
+ 
+
+### 1.2 UX
+
+I decicded to go with the main color of pink since it's a happy color but also a romantic color. I want this restaurant to be connected with "dating" which is the vibe I'm going for. The 3 main colors I chose were created using the website [coolors](https://coolors.co/)
+
+Here is the color palette I have come up with:
+- [Chow-color-palette](docs/img/chow-color-palette.png) 
+
 
 ### 1.4 Wireframes
 
