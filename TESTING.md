@@ -67,7 +67,7 @@ This is the part of creating the application, I have found hard to get my head a
 |--|--|--|
 | [Issue #14](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/14 "Issue #14") | Time picker | Issue rendering the clock on the component which is giving a console error as well |
 | [Issue #15](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/15 "Issue #15") | Fluid Table | Table for bookings is not fluid on medium to smaller devices, need to scroll left and right |
-| [Issue #16](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/16 "Issue #16") | Google Maps | Google map doesn't show up and some times it does |
+| [Issue #16](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/16 "Issue #16") | Google Maps | Google map doesn't show up and some times it does you need to refresh the page, no idea why it does this |
 
 
 ## Unfixed Bugs

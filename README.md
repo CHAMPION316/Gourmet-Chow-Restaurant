@@ -121,15 +121,8 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 | 9 | 5 | 5 | 10 |
 | 10 | 5 | 5 | 10 |
 
-## Design Choices
-
-### UX
-
-I decicded to go with the main color of pink since it's a happy color but also a romantic color. I want this restaurant to be connected with "dating" which is the vibe I'm going for. The 3 main colors I chose were created using the website [coolors](https://coolors.co/)
-
-Here is the color palette I have come up with:
-- [Chow-color-palette](docs/img/chow-color-palette.png) 
-
+\
+&nbsp;
 
 # Wireframes
 
@@ -161,12 +154,30 @@ All of my pages consist of the same navigation menu bar or hamburger icon for mo
 
 The color palette was done using [coolors](https://coolors.co/) as seen by the image here [collage](docs/img/chow-color-palette.png)
 
+# Structure
+
+## App Flow
+
+### Guest User
+
+![Guest User](docs/structure/guest-user.png)
+
+\
+&nbsp;
+
+### Authenticated User
+
+![Authenticated User](docs/structure/authenticated-user.png)
+
+\
+&nbsp;
+
 
 ## Data Schema
 
 ### Page
 
-![Data Schema](docs/structure/schema.png)
+![Data Schema](docs/structure/schema-table.png)
 
 ## Models
 
