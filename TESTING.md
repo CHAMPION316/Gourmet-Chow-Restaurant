@@ -14,9 +14,9 @@ This is the part of creating the application, I have found hard to get my head a
 
 | App | File Name | Number of Tests | Results
 |--|--|--|--
-|checkout|test_models.py|6| NONE)
-|checkout|test_urls.py|3| NONE)
-|products|test_views.py|3| NONE)
+|checkout|test_models.py|6| NONE
+|checkout|test_urls.py|3| NONE
+|products|test_views.py|3| NONE
 
 
 ## Code Validation

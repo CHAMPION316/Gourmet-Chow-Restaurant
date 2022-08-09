@@ -18,6 +18,7 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
+* [My Thoughts](#my-thoughts)
 
 # Background 
 
@@ -190,10 +191,23 @@ The color palette was done using [coolors](https://coolors.co/) as seen by the i
 
 # Features
 
-### Features left to implement in the future
+## Existing Features
+
+* Navbar that allows usre to navigate flawlessly throught the site
+* Login and out system
+* Edit and Delete booking system
+* Contact Page with google maps view of the location
+* Footer page with all contact information needed
+* (See wireframes for all images related to features)
+
+
+
+## Features left to implement in the future
 
 - Create a downloadable pdf version of the food menu by adding a clikable link to the page.
-- Have a notification window pop up when clicking on the phone number on the footer that allows one to make the call directly without having to type the numbers manually.
+- Have a notification window pop up when clicking on the phone number on the footer that allows one to make the call directly without having to type the numbers manually for mobile devices.
+- Confirmation email that you have created an account instead of creating the account and logging in right there.
+- Create a table model that connected to how many guests would be attending to fill out the table. 
 
 ----
 
@@ -219,7 +233,7 @@ The color palette was done using [coolors](https://coolors.co/) as seen by the i
 # Testing
 
 ### [Code Validation](TESTING.md)
-    * Testing was done on a separate file
+    * Testing was done on a separate file click above
 
 
 ----
@@ -317,3 +331,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ## Content
  
 - I would like to thank my lovely wife for being there during this crazy year of up and downs especially when it comes to traveling for work which a lot of the time hinders my time with the course. I want to thank the team over at CodeInstitute especially Simen Daehlin for being a fantastic mentor and pushing me to meet deadlines. Everyone at Slack and the wonderful pages upon pages of information you find over at stackoverflow.com Big thanks to an old friend of mine nick named (Wheels) who is a programmer and helped me out with this project as much as he could. 
+
+# My Thoughts
+
+- This will be my second time submitting this project due to the issues I had on the first. The experience this time around from working on PP5 helped me a lot going back to this one and understanding a lot with what I was working on. A blessing perhaps, we shall see.
