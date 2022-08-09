@@ -1,3 +1,24 @@
+### UX Testing
+
+| ID |  User wants to... | Issue Number | Comments
+|--|--|--| -- |
+| 01 | Edit or Delete booking | [Issue #13](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/13 "Issue #13") | Edit or delete bookings if plans in life change
+| 02 | Contact page | [Issue #12](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/12 "Issue #12") | Contact page with information of the store
+| 03 | Place a reservation | [Issue #11](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/11 "Issue #11") | Place a reservation with no double bookings
+| 04 | Login in System | [Issue #9](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/9 "Issue #9") | Login system that allows you to view your bookings and make reservations
+| 05 | Select guests size | [Issue #3](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/3 "Issue #3") | Select how many guests will be coming
+
+
+## Automated Testing
+This is the part of creating the application, I have found hard to get my head around. I have spent a lot of time reading the [django docs](https://docs.djangoproject.com/en/4.0/topics/testing/ "docs") and using the Code Institue lectures to try and help me, but unfortunately, I can admit I have a very long way to go until I'm comfortable creating these.
+
+| App | File Name | Number of Tests | Results
+|--|--|--|--
+|checkout|test_models.py|6| NONE)
+|checkout|test_urls.py|3| NONE)
+|products|test_views.py|3| NONE)
+
+
 ## Code Validation
 
 ### HTML
@@ -44,8 +65,15 @@
 
 | Issue Number |  Title | Comments 
 |--|--|--|
-| [Issue #26](https://github.com/sam-timmins/swanbourne_village_stores/issues/26 "Issue #26") | Navbar authentication links | Login and register links are stacked when the user is unauthenticated |
-| [Issue #61](https://github.com/sam-timmins/swanbourne_village_stores/issues/61 "Issue #61") | Create product form slug error | When there is an error during creating a product, the slug error text shows and throws off the styling.|
-| [Issue #51](https://github.com/sam-timmins/swanbourne_village_stores/issues/51 "Issue #51") | Dropdown Menu | The dropdown menu class has a style applied to it giving a max-width. |
-| [Issue #110](https://github.com/sam-timmins/swanbourne_village_stores/issues/110 "Issue #110") | Webhooks | Webhooks are not working, getting a 401 error in Stripe |
-| [Issue #129](https://github.com/sam-timmins/swanbourne_village_stores/issues/129 "Issue #129") | Edit works link in navbar not working | Edit works link in navbar not working, giving a 500 error |
+| [Issue #14](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/14 "Issue #14") | Time picker | Issue rendering the clock on the component which is giving a console error as well |
+| [Issue #15](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/15 "Issue #15") | Fluid Table | Table for bookings is not fluid on medium to smaller devices, need to scroll left and right |
+| [Issue #16](https://github.com/CHAMPION316/Gourmet-Chow-Restaurant/issues/16 "Issue #16") | Google Maps | Google map doesn't show up and some times it does |
+
+
+## Unfixed Bugs
+
+There are two errors that I am getting in the console when inspecting the application through Chrome.
+
+
+* [Error one](docs/bugs/tempus-error.png "error") appears on all pages across the application
+* [Error two](docs/bugs/type-error.png "error") appears on all pages across the application
