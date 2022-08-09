@@ -70,16 +70,15 @@ From the resulting interviews, the user goals have been defined:
 
 ## User Stories 
 
-- As a user, I expect to navigate the website with ease of use.
-- As a user, I expect to find the food menu as fast as possible.
-- As a user, I expect to find the restaurants phone number as fast as possible. 
-- As a user, I expect to find the restaurants address as fast as possible.
-- As a user, I expect to book a table with a number of guests. 
-- As a user, I expect to cancel my booking if plans change before hand. 
-- As a user, I expect to be able to download the menu as a pdf if possible. 
-- As a creator, I expect the user to find what they need on the main page.
-- As a creator, I expect the user to find the address of the restaurant within the first 45 seconds.
-- As a creator, I expect the user to enjoy a simplistic menu that isn't all over the place. 
+1. As a user, I expect to navigate the website with ease of use.
+2. As a user, I expect to find the food menu as fast as possible.
+3. As a user, I expect to find the restaurants phone number as fast as possible. 
+4. As a user, I expect to find the restaurants address as fast as possible.
+6. As a user, I expect to cancel my booking if plans change before hand. 
+7. As a user, I expect to be able to download the menu as a pdf if possible. 
+8. As a creator, I expect the user to find what they need on the main page.
+9. As a creator, I expect the user to find the address of the restaurant within the first 45 seconds.
+10. As a creator, I expect the user to enjoy a simplistic menu that isn't all over the place. 
 
 &nbsp;
 
@@ -90,9 +89,47 @@ From the resulting interviews, the user goals have been defined:
 | Visually appealing and well laid out | Colours to be complimentary, text to be clear. Navigation to be logical and simple
 | Responsive design (Mobile first) | The screen size to not affect the look of the application 
 | Contact information laid out nicely | Easy to understand and find what is needed
- 
 
-### 1.2 UX
+&nbsp;
+
+## Strategy
+### Strategy Outline
+The items are graded in a 0 - 5 system in both importance and feasibility as per the grading system below.
+
+&nbsp;
+
+| | Score - 0 | Score - 3 | Score - 5 |
+|--|--|--| -- |
+| Importance | Unwise use of time to address | Efforts should be made to accommodate these | Efforts MUST be made to address these
+| Feasibility | Unwise use of time to address| Efforts should be made to accommodate these | Efforts MUST be made to address these
+
+&nbsp;
+
+The outcome is calculated by combining the scores from the *Importance* and *Feasibility* ratings. This then gives a final strategy rating of what items and where to focus on.
+
+| | Score - 0 | Score - 5 | Score - 10 |
+|--|--|--| -- |
+| Item Description | Not viable | Efforts should be made | Efforts MUST be made
+
+&nbsp;
+
+### Strategy Description
+
+| User story ID | Importance Score | Feasibility Score | Outcome |
+| --------------- | ----------| -----------| ---------- |
+| 1 | 5 | 5 | 10 |
+| 2 | 5 | 5 | 10 |
+| 3 | 5 | 5 | 10 |
+| 4 | 5 | 5 | 10 |
+| 6 | 5 | 5 | 10 |
+| 7 | 5 | 5 | 10 |
+| 8 | 5 | 5 | 10 |
+| 9 | 5 | 5 | 10 |
+| 10 | 5 | 5 | 10 |
+
+## Design Choices
+
+### UX
 
 I decicded to go with the main color of pink since it's a happy color but also a romantic color. I want this restaurant to be connected with "dating" which is the vibe I'm going for. The 3 main colors I chose were created using the website [coolors](https://coolors.co/)
 
@@ -100,7 +137,7 @@ Here is the color palette I have come up with:
 - [Chow-color-palette](docs/img/chow-color-palette.png) 
 
 
-### 1.4 Wireframes
+# Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 
@@ -116,6 +153,12 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 |*same as mobile*|*same as mobile*|[Menu Page Slides](docs/img/phone-menu-slides.png)|
 |[About Page](docs/wireframes/pc-about.png)|[About Page](docs/img/tablet-about.png)|[About Page](docs/img/phone-about-page.png)|
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ##  2 Features 
 
 ### 2.1 Existing Features
@@ -125,29 +168,26 @@ All of my pages consist of the same navigation menu bar or hamburger icon for mo
 The color palette was done using [coolors](https://coolors.co/) as seen by the image here [collage](docs/img/chow-color-palette.png)
 
 
-At this point in time I only have the index.html page running but will implement the rest as I just worked on the wireframes for the rest of the site. 
+## Data Schema
 
-[**The Navbar**](docs/img/phone-navbar.png) includes links to **Home Page** - **Menu Page** - **Reservation Page** - **About Page** 
-- [**Home Page**](docs/img/phone-main-page.png) allows the user to navigate to the main page.
-- [**Menu Page**](docs/img/phone-menu-maincourse.png) allows the user to view the food menu.
-- [**Reservation Page**](docs/img/phone-reservation-page.png) allows the user to place a reservation with a date and time.
-- [**About Page**](docs/img/phone-about-page.png) allows the user to learn more about the restaurant and it's history.
+### Page
 
-[**The Header**](docs/img/phone-main-page.png) : Contains an image of the inside of a restaurant that I got form [pexels](https://www.pexels.com/photo/wine-glasses-on-table-tops-941861/) which is a website that allows users to use images for free. 
+![Data Schema](docs/structure/schema.png)
 
-[**Section**](wireframes/phone-main-page.png) : Contains a colored background with an image of a dish that the restaurant serves with a brief description about the restaurant. 
+## Models
 
-[**The Footer**](wireframes/phone-main-page.png) : includes:
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| user || ForeignKey | User, null=True,blank=True, on_delete=models.CASCADE
+| customer_name || CharField | max_length=20, null=True
+| reservation_date_and_time || DateTimeField | null=True
 
-- **Address details**: includes a contact email to contact the owner.
-- **Phone Number**: newsletter so clients can stay up to date with new material and more.
-- **Social Media Links**: Links to the restaurants social media pages. 
 
-### 2.2. Features left to implement in the future
+# Features
 
-- Create the backend for the website that allows functionality between colliding dates and times.
+### Features left to implement in the future
+
 - Create a downloadable pdf version of the food menu by adding a clikable link to the page.
-- Add a google maps image of the address when on the **Reservation Page** page or have google maps open when clicking on the address on the footer.
 - Have a notification window pop up when clicking on the phone number on the footer that allows one to make the call directly without having to type the numbers manually.
 
 ----
