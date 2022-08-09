@@ -4,6 +4,17 @@
 A gourmet restaurant with an extravagant menu located in lower manhattan. 
 
 # Table of Contents
+* [Background](#background "Background")
+* [Mission Statement](#mission-statement "Mission Statement")
+* [Target Audience](#target-audience "Target Audience")
+* [Stakeholder Interviews](#stakeholder-interviews "Stakeholder Interviews")
+    * [User Persona](#user-persona "User Persona")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Requirements and Expectations](#requirements-and-expectations)
+* [Marketing](#marketing "Marketing")
+* [Wireframes](#wireframes "Wireframes")
+* [Design Choices](#design-choices "Design Choices")
 - [Description](#description)
 - [Technologies used](#technologies-used)
 - [Testing](#testing)
@@ -47,14 +58,14 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page]|[Home Page](docs/img/tablet-main-page.png)|[Home Page](docs/img/phone-main-page.png)|
-|[Navbar]|[Navbar](docs/img/tablet-navbar.png)|[Navbar](docs/img/phone-navbar.png)|
-|[Reservation Page]|[Reservation Page](docs/img/tablet-reservation-page.png)|[Reservation Page](docs/img/phone-reservation-page.png)|
-|[Reservation Guests]|[Reservation Guests](docs/img/tablet-reservation-guests.png)|[Reservation Guests](docs/img/phone-reservation-guests.png)|
-|[Reservation Date]|[Reservation Date](docs/img/tablet-reservation-date.png)|[Reservation Date](docs/img/phone-reservation-date.png)|
-|[Menu Page]|[Menu Page](docs/img/tablet-menu.png)|[Menu Page Starters](docs/img/phone-menu-starters.png)|
-|**|**|[Menu Page Main Course](docs/img/phone-menu-maincourse.png)|
-|**|**|[Menu Page Slides](docs/img/phone-menu-slides.png)|
-|[About Page]|[About Page](docs/img/tablet-about.png)|[About Page](docs/img/phone-about-page.png)|
+|[Navbar](docs/wireframes/pc-navbar.png)|[Navbar](docs/img/tablet-navbar.png)|[Navbar](docs/img/phone-navbar.png)|
+|[Reservation Page](docs/wireframes/pc-reservation-page.png)|[Reservation Page](docs/img/tablet-reservation-page.png)|[Reservation Page](docs/img/phone-reservation-page.png)|
+|[Reservation Guests](docs/wireframes/guests-section.png)|[Reservation Guests](docs/img/tablet-reservation-guests.png)|[Reservation Guests](docs/img/phone-reservation-guests.png)|
+|[Reservation Date](docs/wireframes/pc-reservation-page.png)|[Reservation Date](docs/img/tablet-reservation-date.png)|[Reservation Date](docs/img/phone-reservation-date.png)|
+|[Menu Page](docs/wireframes/pc-homepage.png)|[Menu Page](docs/img/tablet-menu.png)|[Menu Page Starters](docs/img/phone-menu-starters.png)|
+|*same as mobile*|*same as mobile*|[Menu Page Main Course](docs/img/phone-menu-maincourse.png)|
+|*same as mobile*|*same as mobile*|[Menu Page Slides](docs/img/phone-menu-slides.png)|
+|[About Page](docs/wireframes/pc-about.png)|[About Page](docs/img/tablet-about.png)|[About Page](docs/img/phone-about-page.png)|
 
 ##  2 Features 
 
@@ -114,6 +125,7 @@ At this point in time I only have the index.html page running but will implement
 # Testing
 
 ### [Code Validation](TESTING.md)
+    * Testing was done on a separate file
 
 
 ----

@@ -38,7 +38,7 @@ CLOUDINARY_SECRET = os.environ.get('CLOUDINARY_SECRET')
 GOOGLEMAPS_SECRET = os.environ.get('GOOGLEMAPS_SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['gourmet-chow.herokuapp.com', 'localhost']
 
