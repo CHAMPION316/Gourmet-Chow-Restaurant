@@ -15,10 +15,8 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
 * [Marketing](#marketing "Marketing")
 * [Wireframes](#wireframes "Wireframes")
 * [Design Choices](#design-choices "Design Choices")
-* [Description](#description)
 * [Technologies used](#technologies-used)
 * [Testing](#testing)
-* [Improvements](#improvements)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -29,10 +27,6 @@ Chow Chow is a fictional restaurant located in NYC that serves gourmet food for 
 # Mission Statement 
 
 To create a website that is designed so that a user can book an appointment at the restaurant on a specific date and time with ease of use. While preventing double bookings acorss those dates and times. I want it to be easy to navigate across all devices with good readability. 
-
-# Target Audience
-
-Individuals interested in amazing tasting food looking for an atmosphere suitable for privacy and comfort.
 
 # Target Audience
 The customers who use Swanbourne Village Stores currently range from 30-year-old professionals to 80 plus-year-old senior citizens. However, the owners of the store are looking to increase their 30 to 55 age bracket customers with the convenience of a click, purchase and collect web application, so primarily this is the target audience for the application.
@@ -93,6 +87,7 @@ From the resulting interviews, the user goals have been defined:
 &nbsp;
 
 ## Strategy
+
 ### Strategy Outline
 The items are graded in a 0 - 5 system in both importance and feasibility as per the grading system below.
 
@@ -159,7 +154,7 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 \
 &nbsp;
 
-##  2 Features 
+# Design Choices
 
 ### 2.1 Existing Features
 
@@ -192,7 +187,7 @@ The color palette was done using [coolors](https://coolors.co/) as seen by the i
 
 ----
 
-## 3 Technologies used
+# Technologies used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for the website.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - styling for my website.
@@ -219,7 +214,7 @@ The color palette was done using [coolors](https://coolors.co/) as seen by the i
 
 ----
 
-## 6 Deployment
+# Deployment
 
 **How to deploy the project**
 
@@ -307,8 +302,8 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 #### Push Code to Heroku Remote:
 - `git push -u heroku master`
 
-## 7 Credits
+#  Credits
 
-### 7.1 Content
+## Content
  
 - I would like to thank my lovely wife for being there during this crazy year of up and downs especially when it comes to traveling for work which a lot of the time hinders my time with the course. I want to thank the team over at CodeInstitute especially Simen Daehlin for being a fantastic mentor and pushing me to meet deadlines. Everyone at Slack and the wonderful pages upon pages of information you find over at stackoverflow.com Big thanks to an old friend of mine nick named (Wheels) who is a programmer and helped me out with this project as much as he could. 
