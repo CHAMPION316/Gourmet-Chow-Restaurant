@@ -20,7 +20,7 @@ A gourmet restaurant with an extravagant menu located in lower manhattan.
 * [Deployment](#deployment)
 * [Credits](#credits)
 
-## 1 Background 
+# Background 
 
 Chow Chow is a fictional restaurant located in NYC that serves gourmet food for expensive prices. It specializes in steak. The name comes from the cute dog breed "Chow Chow" which is where the play on words comes from. 
 
@@ -156,7 +156,7 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 
 # Design Choices
 
-### 2.1 Existing Features
+## Features
 
 All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The main page has a footer at the bottom with the address, phone number, and social media links. (I am currently working on whether the footer will be implemented on all pages except the menu page.) My color palette was created using [https://coolors.co/](https://coolors.co/). I decided to use 3 colors listed below in RGB format. 
 
