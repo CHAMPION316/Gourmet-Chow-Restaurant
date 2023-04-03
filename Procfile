@@ -1,1 +1,0 @@
-web: gunicorn matrix_2022.wsgi
