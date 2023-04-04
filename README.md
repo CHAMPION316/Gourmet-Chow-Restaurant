@@ -335,3 +335,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 # My Thoughts
 
 - This will be my second time submitting this project due to the issues I had on the first. The experience this time around from working on PP5 helped me a lot going back to this one and understanding a lot with what I was working on. A blessing perhaps, we shall see.
+- P.S -- LOVE YOU ALL <3
